@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UNImakeup</title>
+      <link rel="stylesheet" type="text/css" href="UNImakeup.css">
+      
+      <style>
+          /* Ingen margin i kroppen, så navigationsmenuen er helt i hjørnet*/
+          body{margin: 0;}
+          /* Farve, position og sådan på menuen/listen*/
+          ul.menu{
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: bisque;
+              position: fixed
+              top: 0;
+              width: 100%;}
+          /* Liste elementerne skal starte fra venstre side*/
+          li {
+              float: left;
+          }
+          /* linksne i navigationsmenuen*/
+          li a{
+          display: block;
+          color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+          }
+          /* Når musen holdes over links i navigationsmenuen:*/ 
+         li a:hover {
+  background-color: #d3d3;
+  color: white;
+}   
+      </style>
+    </head>
+    <body>
+        <ul class="menu"> 
+          <li><a href="NyForside.html">Forside</a></li>
+        <button>Login</button>
+        <button>Tilmeld</button>
+        </ul>
+             
+ 
+        <center>
+        <h1>Giv anonym feedback til @nellystouch1</h1>
+        </center>
+        
+        Feedback: <input type="text" name="name"> 
+        <input type="submit">
+                
+    </body>
