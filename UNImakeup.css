@@ -1,0 +1,31 @@
+<style>
+body{margin: 0;}
+          h1 {color: black;}
+button{
+        padding: 13px;
+    color: white;
+    background-color: pink;
+    cursor: pointer;
+    text-align: center;       
+    font-size: 18px;
+    float: right;
+    border: 1px solid black;
+}
+.profil {
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: white;}
+li.profil {float: left}
+li a.profil {
+    display: inline-block;
+    text-decoration: none;
+}
+.checked {
+  color: orange;
+}
+      svg{height: 50vw;
+          width: 125vw}
+    path{fill: #d3d3; transition: .3s fill;}
+    path:hover{fill: red}
+      </style>
